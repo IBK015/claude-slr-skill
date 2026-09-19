@@ -1,6 +1,6 @@
 # claude-slr-skill
 
-A skill for [Claude](https://claude.ai) that guides you through a **Systematic Literature Review (SLR)**: from research question to search strings, screening, PRISMA flow diagram, coding and the methodology section. It works for a master thesis, a course assignment or a journal paper, in any discipline.
+A skill for [Claude](https://claude.ai) that guides you through a **Systematic Literature Review (SLR)**: from research question to search strings, screening, PRISMA flow diagram, coding and the methodology section. It works for any research project that needs a transparent, reproducible literature review, in any discipline.
 
 **What it combines**
 
@@ -66,7 +66,9 @@ Try prompts such as:
 
 ## Background and credit
 
-The skill was drafted with Claude and checked against the Wolfswinkel et al. (2013) article, PRISMA 2020, and a University of Twente Change Leaders Honours SLR course guide (2025) with three example student SLRs. None of that course material or the articles are included here; please read the originals:
+Created and maintained by [Ishraque](https://github.com/IBK015), who designed the skill, the screening workbook and the cross-check protocol. Contributions are credited in the repository history.
+
+The skill was drafted with Claude for researchers running a systematic literature review with the PRISMA 2020 method. It combines the following published sources; please read the originals, none of which are included here:
 
 - Wolfswinkel, J. F., Furtmueller, E., & Wilderom, C. P. M. (2013). Using grounded theory as a method for rigorously reviewing literature. *European Journal of Information Systems, 22*(1), 45-55.
 - Page, M. J., et al. (2021). The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. *BMJ, 372*, n71.
@@ -79,4 +81,4 @@ Issues and pull requests are welcome: field-specific search databases, screening
 
 ## License
 
-MIT, see [LICENSE](LICENSE). If the skill helps your work, you can cite it with [CITATION.cff](CITATION.cff).
+MIT, see [LICENSE](LICENSE). If the skill helps your work, please credit Ishraque (IBK015) and cite it with [CITATION.cff](CITATION.cff).

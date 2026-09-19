@@ -3,8 +3,8 @@ message: "If you use this skill in your research workflow, please cite it as bel
 title: "claude-slr-skill: a Claude skill for PRISMA-based systematic literature reviews with grounded-theory analysis"
 type: software
 authors:
-  - family-names: "Bin Khalil"
-    given-names: "Ishraque"
+  - given-names: "Ishraque"
+    alias: "IBK015"
 version: 1.0.0
 date-released: 2026-09-20
 license: MIT

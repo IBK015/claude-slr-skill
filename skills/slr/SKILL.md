@@ -15,7 +15,7 @@ The method stacks three well-established pieces:
 | Reporting | PRISMA 2020 (Page et al., 2021): flow diagram + 27-item checklist; PRISMA-S for search reporting | Transparency of identification, screening, inclusion |
 | Analysis | Grounded-Theory coding as used by Wolfswinkel et al. (2013) and Gioia et al. (2013): open, axial, selective coding | Turning included papers into findings |
 
-The choices here follow a University of Twente Change Leaders Honours SLR course guide (2025) and three example student SLRs that use this pattern. Treat that guide as the house style unless the user or their supervisor says otherwise. Wolfswinkel et al. say the method is a guide, not a straitjacket: deviation is fine when it is motivated and documented.
+Adapt the defaults below to the field, the target journal or programme, and the supervisor's requirements. Wolfswinkel et al. say the method is a guide, not a straitjacket: deviation is fine when it is motivated and documented.
 
 ## Ground rules (why they matter)
 
@@ -23,7 +23,7 @@ The choices here follow a University of Twente Change Leaders Honours SLR course
 2. **Every criterion gets a justification.** "English only" is fine, but say why (all authors can read it, reviewers can check it).
 3. **Keep a logbook from day one.** Wolfswinkel et al. recommend a process diary at every stage: each choice and its reason, dated. It makes the Present stage honest and lets steps be redone. Any revision (a relaxed criterion, an extra synonym, a sharpened RQ) means every later decision from that point must be reconsidered, so log the change and what must be redone.
 4. **Iterate deliberately.** The RQ is seldom unchanged by the end. Searching shows missing synonyms and surprises; go back to Define, fix it, log it, and repeat the affected steps.
-5. **Text, criteria, sheet and numbers must agree.** In past student SLRs the methodology said "journal articles only" while other text mentioned conference papers and book chapters, and the sheet showed values that the declared criteria did not address. Run the cross-checks below before delivering anything.
+5. **Text, criteria, sheet and numbers must agree.** A common failure is that the methodology says "journal articles only" while other text mentions conference papers and book chapters, and the sheet shows values that the declared criteria do not address. Run the cross-checks below before delivering anything.
 6. **Separate what the papers say from what you infer.** Findings must be attributable to specific included studies.
 7. **Ask before big choices, assume for small ones.** If the session is interactive, use AskUserQuestion for the intake. If unattended, state assumptions at the top and proceed.
 
@@ -41,7 +41,7 @@ The choices here follow a University of Twente Change Leaders Honours SLR course
 
 Establish, skipping anything already known:
 
-1. Purpose and audience: course assignment, master thesis chapter, journal paper, proposal.
+1. Purpose and audience: journal paper, dissertation chapter, report, proposal.
 2. Topic and a first draft of the RQ (Wolfswinkel: explicate the topic and scope, however vaguely, before starting).
 3. Discipline and likely databases; access to Scopus / WoS / IEEE / PubMed.
 4. Team size and who screens (drives the dual-screening design).
@@ -56,7 +56,7 @@ Confirm a one-paragraph **review plan** before searching.
 
 ### 1a. Research question
 
-- Use a **what/how** question, as specific as possible, simple. Example from the guide: *How does emotional intelligence influence conflict management in agile teams?* Sub-questions are welcome and later structure the results.
+- Use a **what/how** question, as specific as possible, simple. Example: *How does emotional intelligence influence conflict management in agile teams?* Sub-questions are welcome and later structure the results.
 - Test it: answerable from empirical papers? Too broad (thousands of hits) or too narrow (under about 30)? Key concepts, population and context named?
 - Frames: PICO(S) for intervention questions; PICo or SPIDER for qualitative work; Population/Context, Concept/technology, Outcome for engineering and planning. Write the frame in a small table.
 
@@ -64,13 +64,13 @@ Confirm a one-paragraph **review plan** before searching.
 
 Produce a table: **Criterion | Decision | Justification | Where applied (DB filter / title-abstract / full text)**. Wolfswinkel counts non-content sampling criteria here too: outlet type, an impact-factor threshold, a time frame.
 
-Typical, from the guide (adjust to the field and say so):
+Typical criteria (adjust to the field and say so):
 
 - Document type: peer-reviewed journal articles only (no book chapters, theses, conference proceedings). For computing, engineering and spatial fields, conference papers carry the state of the art; if included, say so and keep text and criteria aligned.
 - Empirical papers only. Say what "empirical" means here; reviews may serve as background but not in the sample.
 - Language: English.
 - Field or subject area.
-- Quality proxy: journal Impact Factor above 1 (the guide's example) or a Scimago quartile. **Decide explicitly whether it is applied.** IF is blunt and can exclude good work in small fields; if it is not applied, say so and do not present IF values as if they were screening evidence.
+- Quality proxy: journal Impact Factor above 1 (a common example) or a Scimago quartile. **Decide explicitly whether it is applied.** IF is blunt and can exclude good work in small fields; if it is not applied, say so and do not present IF values as if they were screening evidence.
 - Time window: the year of the last comparable SLR, or a defensible turning point.
 - Topic-specific operational definitions: which synonyms of each construct count and which do not, decided before screening (the EI and well-being example spent a full subsection on this).
 - RQ-specific exclusions (for example: studies on followers' gender when the RQ is about leaders' gender).
@@ -134,7 +134,7 @@ Use this whenever the user is starting or reviewing the first screening round.
 4. **Decision codes.** `Include`, `Exclude`, `Maybe`. Be inclusive at this stage: when the abstract cannot settle a criterion, use `Maybe` and decide at full text. Every `Exclude` carries a coded reason (R-codes: not empirical, wrong document type, language, time, field, off topic, wrong population or actor, key construct missing, below quality threshold, not retrievable, other).
 5. **Read in a fixed order** from cheap to expensive: document type, language, year, field; then topic relevance in title and keywords; then the abstract for population, construct(s), design, outcome.
 6. **Compare and resolve.** Compute percent agreement and Cohen's kappa. Discuss each disagreement; if still unresolved, a third person decides. Nothing stays `Maybe` after the round: it moves to full text as `Include`, or is excluded with a reason.
-7. **Workload options.** Best: both reviewers screen every record. Pragmatic, and common in student teams: split the records, then have a second reviewer check every `Include` and `Maybe` and a random sample (at least 20%) of the `Exclude` decisions, and report agreement on the overlap. The examples verified that every paper was seen by at least two people; say which design you used.
+7. **Workload options.** Best: both reviewers screen every record. Pragmatic, and common in small teams: split the records, then have a second reviewer check every `Include` and `Maybe` and a random sample (at least 20%) of the `Exclude` decisions, and report agreement on the overlap. Verify that every paper was seen by at least two people, and say which design you used.
 8. **Log** the counts, agreement, rule changes and who did what. Keep every screened record in the sheet with its decision and reason, including the excluded ones, and keep the same ID for a paper in every tab.
 9. **Full-text round.** Retrieve reports (no licence or no author reply goes into "reports not retrieved" and is reported). Two reviewers read carefully, decide, and code every exclusion reason. Then do forward and backward citation on the included set and return to step 1 for any new candidates.
 
@@ -162,7 +162,7 @@ Arithmetic checks, run every time:
 
 Use the PRISMA 2020 labels and cite Page et al. (2021); older SLRs cite the four-phase Moher et al. (2009) model.
 
-Worked check with a real student example (an SLR on leader gender and follower trust): 291 identified, 126 removed by filters, 165 screened, 145 excluded, 20 sought, 1 not retrieved, 19 assessed, 7 excluded (4 follower-gender studies, 2 not relevant, 1 no gender dimension), 12 included. Every step reconciles.
+Worked check with an illustrative example: 291 identified, 126 removed by filters, 165 screened, 145 excluded, 20 sought, 1 not retrieved, 19 assessed, 7 excluded (4 follower-gender studies, 2 not relevant, 1 no gender dimension), 12 included. Every step reconciles.
 
 ## The screening workbook and cross-checking
 
@@ -172,7 +172,7 @@ Use the bundled template `assets/SLR_Screening_Workbook_Template.xlsx` (regenera
 - `TA_Screening` and `FT_Screening` hold Reviewer A and B columns, an `Agree?` formula, a `Final decision` and a `Resolved by` field.
 - `Reliability` computes percent agreement (flag below 90%) and Cohen's kappa over Include / Exclude / Maybe.
 - `PRISMA_Counts` derives every flow number by formula and shows OK or MISMATCH next to each arithmetic check; `PRISMA_Flow` draws the diagram from those counts.
-- `Evidence_Table` has the guide's columns; `Concept_Matrix` is Wolfswinkel's Table 3 and 4.
+- `Evidence_Table` has the standard columns; `Concept_Matrix` is Wolfswinkel's Table 3 and 4.
 
 ### Cross-check protocol
 
@@ -192,7 +192,7 @@ When the user shares a sheet or workbook, read **every tab** (export each as CSV
 12. **Sheet versus paper.** Every included paper appears in the text, the evidence table and the reference list; no cited study is missing from the sheet.
 13. **Export hygiene.** CSV exports can lose non-ASCII characters (curly apostrophes and hyphens become `?` or a replacement character). Ask for XLSX or UTF-8 with BOM, then fix titles before they go into the reference list.
 
-**Worked example: an anonymised student team workbook (leader gender and follower trust), three tabs.** The RQ and Query tab holds the RQ and the Scopus string with the 2019 to 2026 year clause embedded. The Scopus tab lists 20 full-text candidates with a Comments column. The Sheet1 tab lists the 12 included papers. What the cross-check found:
+**Worked example: an illustrative team workbook with three tabs.** The RQ and Query tab holds the RQ and the Scopus string with the 2019 to 2026 year clause embedded. The Scopus tab lists 20 full-text candidates with a Comments column. The Sheet1 tab lists the 12 included papers. What the cross-check found:
 
 - The counts reconcile with the paper: 20 read in full, 1 with no access, 19 assessed, 7 excluded, 12 included. The seven reasons match the paper (four follower-gender studies, two not relevant, one no gender dimension), though the comments word them inconsistently.
 - Included papers keep no persistent ID: Sheet1 renumbers them 1 to 12 while the Scopus tab numbers them 1 to 20 (for example one paper is 7 in one tab and 9 in the other).
@@ -205,7 +205,7 @@ When the user shares a sheet or workbook, read **every tab** (export each as CSV
 
 ## Stage 4: Extract and appraise
 
-Build the **evidence table**, one row per included paper. Columns from the guide:
+Build the **evidence table**, one row per included paper. Typical columns:
 
 - Authors (year), Title, Journal
 - Summary (2 to 4 sentences)
@@ -216,7 +216,7 @@ Useful extras: aims, methodology, limitations or biases, constructs and definiti
 
 ## Stage 5: Analyze (steps 4.1 to 4.3, Grounded Theory)
 
-This is the heart of the review. Wolfswinkel et al. use the Strauss and Corbin stream; the guide maps it to Gioia et al. (2013).
+This is the heart of the review. Wolfswinkel et al. use the Strauss and Corbin stream; it maps neatly onto Gioia et al. (2013).
 
 **Excerpting.** Pick a random paper, read, and highlight every finding or insight relevant to the scope and RQ. Every selected paper is highlighted at least once. Each highlighted passage is an excerpt; record which paper it belongs to. Sub-grouping papers before analysis needs a subject-matter reason and an explicit write-up of how the subsets are linked later.
 
@@ -243,7 +243,7 @@ Ground every claim with its supporting studies, e.g. (Author, Year).
 
 - Represent and structure the content from the findings and insights in the logbooks. Results by **sub-RQ** or around the **storyline** from selective coding.
 - Include a solid account of the empirical facts for readers who only want an overview, and give a rationale for any additional representation.
-- Use visuals: the guide encourages your own model; Wolfswinkel cites concept-centric versus author-centric listings, concept matrices, and diagrams showing conceptual overlap (for example circles sized by number of concepts or papers per category). Show more than a passive list of concepts.
+- Use visuals: building your own model is encouraged; Wolfswinkel cites concept-centric versus author-centric listings, concept matrices, and diagrams showing conceptual overlap (for example circles sized by number of concepts or papers per category). Show more than a passive list of concepts.
 - Be transparent: disclose the key choices from the logbook, including changes to criteria and RQ.
 - Balance the creativity of the data against the creativity of the reviewer; state your prior beliefs.
 - Discussion: answer to the RQ, agreement or conflict with earlier work, implications, **limitations** (databases, language, quality filter, sample size, screening reliability), future research.
@@ -309,7 +309,7 @@ Work in phases and let the user approve each: plan, strings, screening, extracti
 
 ## Adapting to other fields
 
-- **Thesis in geoinformation, planning or engineering** (for example digital twins): add IEEE Xplore, ScienceDirect or Scopus subject filters for Earth and Planetary Sciences, Engineering, Environmental Science; consider conference papers and technical reports as a labelled second stream; define technology terms precisely (a digital twin is not any 3D model); expect heterogeneous designs that need a typology, not effect sizes.
+- **Geoinformation, planning or engineering topics** (for example emerging technologies): add IEEE Xplore, ScienceDirect or Scopus subject filters for Earth and Planetary Sciences, Engineering, Environmental Science; consider conference papers and technical reports as a labelled second stream; define technology terms precisely (for example, not every 3D model is a digital twin); expect heterogeneous designs that need a typology, not effect sizes.
 - **Health or intervention reviews:** PICOS, protocol registration (PROSPERO or OSF), dual independent screening, formal risk of bias, optionally meta-analysis. Hand off to the deep-research skill.
 - **Software engineering:** Kitchenham and Charters guidelines; the search and PRISMA steps still apply.
 - **Fast timelines:** a rapid review is legitimate if declared, with shortcuts (one database, single screener, limited years) named as limitations.
