@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this skill in your research workflow, please cite it as below."
+title: "claude-slr-skill: a Claude skill for PRISMA-based systematic literature reviews with grounded-theory analysis"
+type: software
+authors:
+  - family-names: "Bin Khalil"
+    given-names: "Ishraque"
+version: 1.0.0
+date-released: 2026-09-20
+license: MIT
+repository-code: "https://github.com/IBK015/claude-slr-skill"
+keywords:
+  - systematic literature review
+  - PRISMA 2020
+  - grounded theory
+  - Claude skill
